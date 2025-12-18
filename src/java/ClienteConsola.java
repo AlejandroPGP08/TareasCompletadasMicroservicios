@@ -7,8 +7,8 @@ public class ClienteConsola {
         // Lee entrada del usuario
         Scanner scanner = new Scanner(System.in);
         // URL base del servidor
-        //String baseUrl = "http://localhost:8080";
-        String baseUrl = "http://44.200.135.171:8080";
+        String baseUrl = "http://localhost:8080";
+        //String baseUrl = "http://44.200.135.171:8080";
 
         System.out.println("=== CLIENTE CARRITO DE COMPRAS (RESTful) ===");
         
@@ -114,4 +114,5 @@ public class ClienteConsola {
                   .replace("[", "[\n  ")
                   .replace("]", "\n]");
     }
+
 }
